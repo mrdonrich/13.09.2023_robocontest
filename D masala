@@ -1,0 +1,24 @@
+Bankdagi pullar #1
+Umid bankka A ming so'm pul qo'ydi. Uning puli har oy oldingi oyning P foizga oshib boradi. Agar uning puli N oy tursa, uning pullari qancha bo'ladi ? 
+
+Kiruvchi ma'lumotlar:
+Bir qatorda A (0<A≤100) , P (0<P≤50) , N (0<N≤10).
+
+Chiquvchi ma'lumotlar:
+Javobning butun qismini chop eting!
+
+Misollar
+#	input.txt	output.txt
+1	
+50 37 2
+93
+2	
+79 24 5
+231
+
+
+
+cod
+A,P,N = map(int,input().split())
+aslam = A * (1 + P/100)**N
+print(f"{int(aslam)}")
