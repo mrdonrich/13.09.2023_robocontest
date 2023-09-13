@@ -1,0 +1,10 @@
+sayyorasida sonlar yomg'iri bo'lmoqda. Ular qandardir qonuniyat asosida yog'moqda.Masalan:
+
+1-son: 780
+
+2-son: 1562
+
+Siz qiladigan ish esa keyingi tushadigan son qaysiligini topish.
+
+a = int(input())
+print(a * 2 + 2)
