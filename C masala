@@ -6,3 +6,8 @@ Sizga N(0<N≤1900) necha soat o'tgani kiritiladi.
 Chiquvchi ma'lumotlar:
 Unda necha kun va soat qolganini toping!
 
+
+A,P,N = map(int,input().split())
+aslam = A * (1 + P/100)**N
+print(f"{int(aslam)}")
+
